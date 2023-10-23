@@ -1,0 +1,139 @@
+@media (width > 1440px){
+    header{
+        width: 100%;
+        background-image: url(./assets/desktopback.svg);
+        background-repeat: no-repeat;
+        padding: 64px 165px;
+    }
+    .headerimg{
+        column-gap: 940px;
+    }
+    .headertxt{
+        width: 650px;
+        height: 278px;
+        flex-shrink: 0;
+        padding: 40px;
+    }
+    h1{
+        width: 570px;
+        height: 198px;
+        flex-shrink: 0;
+        font-size: 72px;
+        line-height: 70px;
+    }
+    .section1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 170px;
+    }
+    .section1 img{
+        width: 731px;
+        height: 500px;
+        flex-shrink: 0;
+    }
+    .section1txt{
+        position: relative;
+        top: 140px;
+        right: 156px;
+        padding: 96px 0 0 96px;
+        background-color: #fff;
+        text-align: start;
+        width: 541px;
+        height: 317px;
+        flex-shrink: 0;
+    }
+    h2{
+        width: 445px;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    h3{
+        width: 445px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .but1{
+        display: none;
+    }
+    .but2{
+        display: block;
+    }
+    .but2:hover{
+        border: 1px solid #000;
+        background: #000;
+        color: #FFF;
+    }
+    .section2{
+        margin-top: 186px;
+    }
+    .section2txt{
+        display: flex;
+        flex-direction: row;
+        column-gap: 560px;
+    }
+    .section3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+        margin-left: 70px;
+    }
+    .box{
+        width: 256px;
+        height: 450px;
+        flex-shrink: 0;
+    }
+    .box1{
+        background-image: url(./assets/Bitmap\ desk1.svg);
+        background-repeat: no-repeat;
+    }
+    .box2{
+        background-image: url(./assets/Bitmap\ desk-2.svg);
+        background-repeat: no-repeat;
+    }
+    .box3{
+        background-image: url(./assets/Bitmap\ desk-3.svg);
+        background-repeat: no-repeat;
+    }
+    .box4{
+        background-image: url(./assets/Bitmap\ desk-4.svg);
+        background-repeat: no-repeat;
+    }
+    .box5{
+        background-image: url(./assets/Bitmap\ desk-5.svg);
+        background-repeat: no-repeat;
+    }
+    .box6{
+        background-image: url(./assets/Bitmap\ desk-6.svg);
+        background-repeat: no-repeat;
+    }
+    .box7{
+        background-image: url(./assets/Bitmap\ desk-7.svg);
+        background-repeat: no-repeat;
+    }
+    .box8{
+        background-image: url(./assets/Bitmap\ desk-8.svg);
+        background-repeat: no-repeat;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        height: 160px;
+        column-gap: 490px;
+        padding:44px 0 44px 180px;
+        margin-top: 184px;
+
+    }
+    .footertxt1{
+        margin-top: 44px;
+    }
+    .footertxt{
+        display: flex;
+        flex-direction: row;
+        column-gap: 32px;
+    }
+    .footerimg2{
+        align-items: end;
+        text-align: end;
+    }
+}
