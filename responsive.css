@@ -24,7 +24,7 @@
     .section1{
         display: flex;
         flex-direction: row;
-        margin-left: 170px;
+        margin-left: 150px;
     }
     .section1 img{
         width: 731px;
@@ -64,62 +64,76 @@
         color: #FFF;
     }
     .section2{
+        display: flex;
         margin-top: 186px;
     }
     .section2txt{
         display: flex;
         flex-direction: row;
-        column-gap: 560px;
+        column-gap: 540px;
+        margin-left: -40px;
     }
     .section3{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(4 , 256px);
         column-gap: 30px;
         row-gap: 30px;
-        margin-left: 70px;
     }
     .box{
         width: 256px;
         height: 450px;
         flex-shrink: 0;
     }
+    h4{
+        font-size: 32px;
+        line-height: 32px;
+        
+    }
     .box1{
         background-image: url(./assets/Bitmap\ desk1.svg);
         background-repeat: no-repeat;
+        padding: 354px 110px 32px 40px;
     }
     .box2{
         background-image: url(./assets/Bitmap\ desk-2.svg);
         background-repeat: no-repeat;
+        padding: 354px 84px 32px 40px;
     }
     .box3{
         background-image: url(./assets/Bitmap\ desk-3.svg);
         background-repeat: no-repeat;
+        padding: 354px 72px 32px 40px;
     }
     .box4{
         background-image: url(./assets/Bitmap\ desk-4.svg);
         background-repeat: no-repeat;
+        padding:  354px 139px 32px 40px;
     }
     .box5{
         background-image: url(./assets/Bitmap\ desk-5.svg);
         background-repeat: no-repeat;
+        padding: 354px 52px 32px 40px;
     }
     .box6{
         background-image: url(./assets/Bitmap\ desk-6.svg);
         background-repeat: no-repeat;
+        padding: 354px 59px 32px 40px;
     }
     .box7{
         background-image: url(./assets/Bitmap\ desk-7.svg);
         background-repeat: no-repeat;
+        padding: 354px 47px 32px 40px;
     }
     .box8{
         background-image: url(./assets/Bitmap\ desk-8.svg);
         background-repeat: no-repeat;
+        padding: 354px 84px 32px 40px;
     }
     footer{
         display: flex;
         flex-direction: row;
         height: 160px;
-        column-gap: 490px;
+        column-gap: 450px;
         padding:44px 0 44px 180px;
         margin-top: 184px;
 
